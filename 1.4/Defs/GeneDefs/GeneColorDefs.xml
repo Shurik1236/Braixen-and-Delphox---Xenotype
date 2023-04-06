@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="GeneSkinColorOverride">
+    <!--Blue-->
+        <defName>BlueBraixenGene</defName>
+        <label>Blue Braixen skin</label>
+        <labelShortAdj>blue</labelShortAdj>
+        <description>...</description>
+        <skinColorOverride>(119,127,159)</skinColorOverride>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <displayCategory>BraixenDelphoxXenos</displayCategory>
+        <randomBrightnessFactor>0.12</randomBrightnessFactor>
+        <symbolPack>
+          <prefixSymbols>
+            <li><symbol>blue</symbol></li>
+            <li><symbol>ice</symbol></li>
+            <li><symbol>sky</symbol></li>
+          </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+    <GeneDef ParentName="GeneSkinColorOverride">
+    <!--Purple-->
+        <defName>PurpleBraixenGene</defName>
+        <label>Purple Braixen skin</label>
+        <labelShortAdj>purple</labelShortAdj>
+        <description>...</description>
+        <skinColorOverride>(186,146,177)</skinColorOverride>
+        <displayOrderInCategory>101</displayOrderInCategory>
+        <displayCategory>BraixenDelphoxXenos</displayCategory>
+        <randomBrightnessFactor>0.12</randomBrightnessFactor>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>purp</symbol></li>
+                <li><symbol>grape</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+    <GeneDef ParentName="GeneSkinColorOverride">
+    <!--Pink-->
+        <defName>PinkBraixenGene</defName>
+        <label>Pink Braixen skin</label>
+        <labelShortAdj>pink</labelShortAdj>
+        <description>...</description>
+        <skinColorOverride>(255,181,164)</skinColorOverride>
+        <displayOrderInCategory>102</displayOrderInCategory>
+        <displayCategory>BraixenDelphoxXenos</displayCategory>
+        <randomBrightnessFactor>0.12</randomBrightnessFactor>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>pink</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>

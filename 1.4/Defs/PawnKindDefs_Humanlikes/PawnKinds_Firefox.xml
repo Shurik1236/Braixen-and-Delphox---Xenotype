@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef ParentName="TribalArcherBase">
+    <defName>FireFox_Archer_Fire</defName>
+    <weaponTags Inherit="False">
+      <li>NeolithicRangedFlame</li>
+    </weaponTags>
+    <apparelMoney>0</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_Bandolier</li>
+    </apparelRequired>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <combatPower>75</combatPower>
+    <defaultFactionType>FireFoxyTribe</defaultFactionType>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="Tribal_Hunter">
+    <defName>FireFox_Hunter_Fire</defName>
+    <weaponTags>
+      <li>NeolithicRangedFlame</li>
+    </weaponTags>
+    <combatPower>80</combatPower>
+    <apparelMoney>0</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_Bandolier</li>
+    </apparelRequired>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <defaultFactionType>FireFoxyTribe</defaultFactionType>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="TribalWarriorBase">
+    <defName>FireFox_Warrior_Fire</defName>
+    <weaponTags>
+      <li>GrenadeFlame</li>
+    </weaponTags>
+    <apparelMoney>0</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_Bandolier</li>
+    </apparelRequired>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <combatPower>75</combatPower>
+    <defaultFactionType>FireFoxyTribe</defaultFactionType>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="TribalArcherBase">
+    <defName>FireFox_Archer</defName>
+    <weaponTags>
+      <li>GrenadeFlame</li>
+    </weaponTags>
+    <apparelMoney>0</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_Bandolier</li>
+    </apparelRequired>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <combatPower>45</combatPower>
+    <defaultFactionType>FireFoxyTribe</defaultFactionType>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="Tribal_Hunter">
+    <defName>FireFox_Hunter</defName>
+    <weaponTags>
+      <li>GrenadeFlame</li>
+    </weaponTags>
+    <apparelMoney>0</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_Bandolier</li>
+    </apparelRequired>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <combatPower>60</combatPower>
+    <defaultFactionType>FireFoxyTribe</defaultFactionType>
+  </PawnKindDef>
+  
+    <PawnKindDef ParentName="TribalBase">
+    <defName>FireFox_HeavyArcher</defName>
+    <label>heavy archer</label>
+    <combatPower>75</combatPower>
+    <apparelMoney>0</apparelMoney>
+    <weaponMoney>250~250</weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedHeavy</li>
+    </weaponTags>
+    <apparelRequired>
+      <li>Apparel_Bandolier</li>
+    </apparelRequired>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>14~22</initialResistanceRange>
+  </PawnKindDef>
+</Defs>

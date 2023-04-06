@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef>
+        <defName>BraixenBodyGene</defName>
+        <label>braixen body</label>
+        <labelShortAdj>braixen</labelShortAdj>
+        <description>...</description>
+        <displayCategory>BraixenDelphoxXenos</displayCategory>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <iconPath>UI/Icons/Genes/BraixenBodyGene</iconPath>
+        <iconColor>(0.75, 0.75, 0.75)</iconColor>
+        <bodyType>Standard</bodyType>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+		<missingGeneRomanceChanceFactor>0.2</missingGeneRomanceChanceFactor>
+        <exclusionTags>
+            <li>BodyType</li>
+        </exclusionTags>
+
+        <graphicData>
+			<colorType>Skin</colorType>
+			<useSkinShader>false</useSkinShader>
+			<tattoosVisible>false</tattoosVisible>
+            <drawOffsetNorth>(0,0,0)</drawOffsetNorth>
+      		<drawOffsetSouth>(0,0,0)</drawOffsetSouth>
+      		<drawOffsetEast>(-0.5,0,0)</drawOffsetEast>
+		</graphicData>
+		<modExtensions>
+		    <li Class="GeneTools.GeneToolsGeneDef">
+                <forcedBodyTypesBaby>
+				    <li>BraixenB</li>
+			    </forcedBodyTypesBaby>
+                <forcedBodyTypesChild>
+				    <li>BraixenC</li>
+			    </forcedBodyTypesChild>
+			    <forcedBodyTypesFemale>
+				    <li>BraixenF</li>
+			    </forcedBodyTypesFemale>
+			    <forcedBodyTypes>
+				    <li>BraixenM</li>
+			    </forcedBodyTypes>
+		    </li>
+		</modExtensions>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>BraixenHeadGene</defName>
+        <label>Braixen head</label>
+        <labelShortAdj>foxy head</labelShortAdj>
+        <description>...</description>
+        <displayCategory>BraixenDelphoxXenos</displayCategory>
+        <displayOrderInCategory>2</displayOrderInCategory>
+        <iconPath>UI/Icons/Genes/BraixenHeadGene</iconPath>
+        <iconColor>(0.75, 0.75, 0.75)</iconColor>
+        <forcedHeadTypes>
+			<li>BraixenHeadStandard</li>
+		</forcedHeadTypes>
+        <exclusionTags>
+            <li>AG_Heads</li>
+			<li>Heads</li>
+			<li>Head</li>
+		</exclusionTags>
+        <beardTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>NoBeard</li>
+			</tags>
+		</beardTagFilter>
+        <graphicData>
+			<colorType>Skin</colorType>
+			<useSkinShader>false</useSkinShader>
+			<tattoosVisible>false</tattoosVisible>
+		</graphicData>
+    </GeneDef>
+
+	<GeneDef ParentName="BraixenEarBase">
+		<defName>BraixenEarGene</defName>
+		<label>braixen ears</label>
+		<description>...</description>
+		<displayCategory>BraixenDelphoxXenos</displayCategory>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/BraixenEarGene</iconPath>
+		<iconColor>(140,140,140)</iconColor>
+		<graphicData>
+			<colorType>Skin</colorType>
+			<useSkinShader>false</useSkinShader>
+			<tattoosVisible>false</tattoosVisible>
+            <graphicPaths>
+				<li>Things/Pawn/Humanlike/Braixen/Ear/BraixenEar1</li>
+				<li>Things/Pawn/Humanlike/Braixen/Ear/BraixenEar2</li>
+                <li>Things/Pawn/Humanlike/Braixen/Ear/BraixenEar3</li>
+			</graphicPaths>
+            <drawOffsetSouth>(0.0, -0.1, 0.0)</drawOffsetSouth>
+		</graphicData>
+	</GeneDef>
+
+	<GeneDef ParentName="GeneEyeColor">
+		<defName>BraPhoxEyeHGene</defName>
+		<label>Foxy eyes (for human)</label>
+		<iconPath>UI/Icons/Genes/BraixenDelphoxEyeGene</iconPath>
+		<description>...</description>
+        <displayCategory>BraixenDelphoxXenos</displayCategory>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<graphicData>
+			<drawScale>0.093</drawScale>
+			<graphicPath>Things/Pawn/Humanlike/Braixen/Eye/EyeM</graphicPath>
+			<graphicPathFemale>Things/Pawn/Humanlike/Braixen/Eye/EyeF</graphicPathFemale>
+			<visibleNorth>false</visibleNorth>
+			<drawOnEyes>true</drawOnEyes>
+			<layer>PostTattoo</layer>
+		</graphicData>
+	</GeneDef>
+
+	<GeneDef ParentName="GeneEyeColor">
+		<defName>BraPhoxEyeGene</defName>
+		<label>Foxy eyes</label>
+		<iconPath>UI/Icons/Genes/BraixenDelphoxEyeGene</iconPath>
+		<description>...</description>
+        <displayCategory>BraixenDelphoxXenos</displayCategory>
+		<displayOrderInCategory>5</displayOrderInCategory>
+		<graphicData>
+			<drawScale>0.23</drawScale>
+			<graphicPath>Things/Pawn/Humanlike/Braixen/Eye/EyeM</graphicPath>
+			<graphicPathFemale>Things/Pawn/Humanlike/Braixen/Eye/EyeF</graphicPathFemale>
+			<visibleNorth>false</visibleNorth>
+			<drawOnEyes>true</drawOnEyes>
+			<layer>PostTattoo</layer>
+		</graphicData>
+	</GeneDef>
+
+    <GeneDef ParentName="GeneTailBase">
+        <defName>BraixenTailGene</defName>
+        <label>braixen tail</label>
+        <description>...</description>
+        <iconPath>UI/Icons/Genes/BraixenTailGene</iconPath>
+        <iconColor>(0.75, 0.75, 0.75)</iconColor>
+        <displayOrderInCategory>6</displayOrderInCategory>
+        <displayCategory>BraixenDelphoxXenos</displayCategory>
+        <statOffsets>
+            <ComfyTemperatureMax>5</ComfyTemperatureMax>
+        </statOffsets>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <graphicData>
+            <drawScale>1.5</drawScale>
+            <colorType>Skin</colorType>
+			<useSkinShader>false</useSkinShader>
+			<tattoosVisible>false</tattoosVisible>
+            <graphicPath>Things/Pawn/Humanlike/Braixen/Tail/Defaulttail</graphicPath>
+            <drawOffsetNorth>(0.0, 0.2, 0.0)</drawOffsetNorth>
+            <drawOffsetSouth>(0.0, -0.2, 0.12)</drawOffsetSouth>
+            <drawOffsetEast>(0.1, -0.1, 0.0)</drawOffsetEast>
+        </graphicData>
+    </GeneDef>
+</Defs>

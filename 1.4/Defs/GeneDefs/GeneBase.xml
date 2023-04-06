@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef Name="BraixenEarBase" ParentName="GeneEarsBase" Abstract="True">
+		<biostatCpx>0</biostatCpx>
+		<displayOrderInCategory>200</displayOrderInCategory>
+		<graphicData>
+			<colorType>Hair</colorType>
+			<useSkinShader>false</useSkinShader>
+		</graphicData>
+	</GeneDef>
+</Defs>

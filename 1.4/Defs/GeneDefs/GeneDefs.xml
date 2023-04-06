@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef>
+        <defName>BraixenDelphoxHeadGene</defName>
+        <label>Mixed head</label>
+        <labelShortAdj>foxy head</labelShortAdj>
+        <description>...</description>
+        <displayCategory>BraixenDelphoxXenos</displayCategory>
+        <displayOrderInCategory>12</displayOrderInCategory>
+        <iconPath>UI/Icons/Genes/BraixenDelphoxHeadGene</iconPath>
+        <iconColor>(0.75, 0.75, 0.75)</iconColor>
+        <forcedHeadTypes>
+			<li>BraixenHeadStandard</li>
+			<li>DelphoxHeadStandard</li>
+			<li>WitchFoxHead1</li>
+			<li>WitchFoxHead2</li>
+		</forcedHeadTypes>
+        <exclusionTags>
+            <li>AG_Heads</li>
+			<li>Heads</li>
+			<li>Head</li>
+		</exclusionTags>
+        <beardTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>NoBeard</li>
+			</tags>
+		</beardTagFilter>
+        <graphicData>
+			<colorType>Skin</colorType>
+			<useSkinShader>false</useSkinShader>
+			<tattoosVisible>false</tattoosVisible>
+		</graphicData>
+    </GeneDef>
+</Defs>

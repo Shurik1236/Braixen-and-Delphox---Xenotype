@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<BodyTypeDef ParentName="BraixenBodyBase">
+		<defName>BraixenF</defName>
+		<bodyNakedGraphicPath>Things/Pawn/Humanlike/Braixen/Body/Female_Naked</bodyNakedGraphicPath>
+		<label>Braixen Female</label>
+        <modExtensions>
+			<li Class="GeneTools.GeneToolsBodyTypeDef">
+				<useShader>true</useShader>
+			    <substituteBody>Female</substituteBody>
+		    </li>
+		</modExtensions>
+	</BodyTypeDef>
+	<BodyTypeDef ParentName="BraixenBodyBase">
+		<defName>BraixenM</defName>
+		<bodyNakedGraphicPath>Things/Pawn/Humanlike/Braixen/Body/Male_Naked</bodyNakedGraphicPath>
+		<label>Braixen Male</label>
+        <modExtensions>
+			<li Class="GeneTools.GeneToolsBodyTypeDef">
+				<useShader>true</useShader>
+			    <substituteBody>Female</substituteBody>
+		    </li>
+		</modExtensions>
+	</BodyTypeDef>
+    <BodyTypeDef ParentName="BraixenChildBodyBase">
+		<defName>BraixenC</defName>
+		<bodyNakedGraphicPath>Things/Pawn/Humanlike/Braixen/Body/Naked_Child</bodyNakedGraphicPath>
+        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Child</bodyDessicatedGraphicPath>
+		<label>Braixen Child</label>
+        <modExtensions>
+			<li Class="GeneTools.GeneToolsBodyTypeDef">
+				<useShader>true</useShader>
+			    <substituteBody>Child</substituteBody>
+		    </li>
+		</modExtensions>
+	</BodyTypeDef>
+    <BodyTypeDef ParentName="BraixenBabyBodyBase">
+		<defName>BraixenB</defName>
+		<bodyNakedGraphicPath>Things/Pawn/Humanlike/Braixen/Body/Naked_Child</bodyNakedGraphicPath>
+        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Child</bodyDessicatedGraphicPath>
+		<label>Braixen Baby</label>
+        <modExtensions>
+			<li Class="GeneTools.GeneToolsBodyTypeDef">
+				<useShader>true</useShader>
+		    </li>
+		</modExtensions>
+	</BodyTypeDef>
+
+	<BodyTypeDef ParentName="BraixenBodyBase">
+		<defName>DelphoxF</defName>
+		<bodyNakedGraphicPath>Things/Pawn/Humanlike/Delphox/Body/Female_Naked</bodyNakedGraphicPath>
+		<label>Delphox Female</label>
+        <modExtensions>
+			<li Class="GeneTools.GeneToolsBodyTypeDef">
+				<useShader>true</useShader>
+			    <substituteBody>Female</substituteBody>
+		    </li>
+		</modExtensions>
+	</BodyTypeDef>
+	<BodyTypeDef ParentName="BraixenBodyBase">
+		<defName>DelphoxM</defName>
+		<bodyNakedGraphicPath>Things/Pawn/Humanlike/Delphox/Body/Male_Naked</bodyNakedGraphicPath>
+		<label>Delphox Male</label>
+        <modExtensions>
+			<li Class="GeneTools.GeneToolsBodyTypeDef">
+				<useShader>true</useShader>
+			    <substituteBody>Female</substituteBody>
+		    </li>
+		</modExtensions>
+	</BodyTypeDef>
+	<BodyTypeDef ParentName="BraixenChildBodyBase">
+		<defName>DelphoxC</defName>
+		<bodyNakedGraphicPath>Things/Pawn/Humanlike/Braixen/Body/Naked_Child</bodyNakedGraphicPath>
+        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Child</bodyDessicatedGraphicPath>
+		<label>Delphox Child</label>
+        <modExtensions>
+			<li Class="GeneTools.GeneToolsBodyTypeDef">
+				<useShader>true</useShader>
+			    <substituteBody>Child</substituteBody>
+		    </li>
+		</modExtensions>
+	</BodyTypeDef>
+    <BodyTypeDef ParentName="BraixenBabyBodyBase">
+		<defName>DelphoxB</defName>
+		<bodyNakedGraphicPath>Things/Pawn/Humanlike/Braixen/Body/Naked_Child</bodyNakedGraphicPath>
+        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Child</bodyDessicatedGraphicPath>
+		<label>Delphox Baby</label>
+        <modExtensions>
+			<li Class="GeneTools.GeneToolsBodyTypeDef">
+				<useShader>true</useShader>
+		    </li>
+		</modExtensions>
+	</BodyTypeDef>
+	
+	<BodyTypeDef ParentName="BraixenBodyBase">
+		<defName>IcephoxF</defName>
+		<bodyNakedGraphicPath>Things/Pawn/Humanlike/Icephox/Body/Female_Naked</bodyNakedGraphicPath>
+		<label>Icephox Female</label>
+        <modExtensions>
+			<li Class="GeneTools.GeneToolsBodyTypeDef">
+				<useShader>true</useShader>
+			    <substituteBody>Female</substituteBody>
+		    </li>
+		</modExtensions>
+	</BodyTypeDef>
+	<BodyTypeDef ParentName="BraixenBodyBase">
+		<defName>IcephoxM</defName>
+		<bodyNakedGraphicPath>Things/Pawn/Humanlike/Icephox/Body/Male_Naked</bodyNakedGraphicPath>
+		<label>Icephox Male</label>
+        <modExtensions>
+			<li Class="GeneTools.GeneToolsBodyTypeDef">
+				<useShader>true</useShader>
+			    <substituteBody>Female</substituteBody>
+		    </li>
+		</modExtensions>
+	</BodyTypeDef>
+    <BodyTypeDef ParentName="BraixenChildBodyBase">
+		<defName>IcephoxC</defName>
+		<bodyNakedGraphicPath>Things/Pawn/Humanlike/Braixen/Body/Naked_Child</bodyNakedGraphicPath>
+        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Child</bodyDessicatedGraphicPath>
+		<label>Icephox Child</label>
+        <modExtensions>
+			<li Class="GeneTools.GeneToolsBodyTypeDef">
+				<useShader>true</useShader>
+			    <substituteBody>Child</substituteBody>
+		    </li>
+		</modExtensions>
+	</BodyTypeDef>
+    <BodyTypeDef ParentName="BraixenBabyBodyBase">
+		<defName>IcephoxB</defName>
+		<bodyNakedGraphicPath>Things/Pawn/Humanlike/Braixen/Body/Naked_Child</bodyNakedGraphicPath>
+        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Child</bodyDessicatedGraphicPath>
+		<label>Icephox Baby</label>
+        <modExtensions>
+			<li Class="GeneTools.GeneToolsBodyTypeDef">
+				<useShader>true</useShader>
+		    </li>
+		</modExtensions>
+	</BodyTypeDef>
+</Defs>

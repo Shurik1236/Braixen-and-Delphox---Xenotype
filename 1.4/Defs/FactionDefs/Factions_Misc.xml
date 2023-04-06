@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <FactionDef ParentName="TribeSavageBase">
+    <defName>FireFoxyTribe</defName>
+    <label>Inferxen Tribe</label>
+    <description>...</description>
+    <factionIconPath>WorldObjects/Braixen_Faction</factionIconPath>
+    <factionNameMaker>NamerFactionTribalImpid</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribalImpid</settlementNameMaker>
+    <allowedArrivalTemperatureRange>20~50</allowedArrivalTemperatureRange>
+    <colorSpectrum>
+      <li>(0.85, 0, 0)</li>
+      <li>(0.85, 0.7, 0.7)</li>
+    </colorSpectrum>
+    <pawnSingular>fox</pawnSingular>
+    <pawnsPlural>fox's</pawnsPlural>
+    <disallowedRaidStrategies>
+      <li>ImmediateAttackSappers</li>
+      <li>ImmediateAttackBreaching</li>
+      <li>ImmediateAttackBreachingSmart</li>
+    </disallowedRaidStrategies>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+    </disallowedMemes>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <InferxenXeno>0.9</InferxenXeno>
+        <DelphoxXeno>0.05</DelphoxXeno>
+        <BraixenXeno>0.05</BraixenXeno>
+      </xenotypeChances>
+    </xenotypeSet>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li> <!-- Never generate with any apparel precepts -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+    </disallowedPrecepts>
+    <earliestRaidDays>20</earliestRaidDays>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>20</configurationListOrderPriority>
+    <pawnGroupMakers Inherit="False">
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <FireFox_Warrior_Fire>1</FireFox_Warrior_Fire>
+          <FireFox_Archer>8</FireFox_Archer>
+          <FireFox_Archer_Fire>10</FireFox_Archer_Fire>
+          <FireFox_Hunter>8</FireFox_Hunter>
+          <FireFox_Hunter_Fire>10</FireFox_Hunter_Fire>
+          <FireFox_HeavyArcher>8</FireFox_HeavyArcher>
+          <Tribal_HeavyArcher>1</Tribal_HeavyArcher>
+          <Tribal_ChiefRanged>3</Tribal_ChiefRanged>
+          <Tribal_Hunter>2</Tribal_Hunter>
+          <Tribal_Archer>1</Tribal_Archer>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <FireFox_Archer>8</FireFox_Archer>
+          <FireFox_Archer_Fire>10</FireFox_Archer_Fire>
+          <FireFox_Hunter>8</FireFox_Hunter>
+          <FireFox_Hunter_Fire>10</FireFox_Hunter_Fire>
+          <FireFox_HeavyArcher>8</FireFox_HeavyArcher>
+          <Tribal_HeavyArcher>2</Tribal_HeavyArcher>
+          <Tribal_ChiefRanged>5</Tribal_ChiefRanged>
+          <Tribal_Hunter>2</Tribal_Hunter>
+          <Tribal_Archer>1</Tribal_Archer>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>5</commonality>
+        <options>
+          <FireFox_Warrior_Fire>2</FireFox_Warrior_Fire>
+          <FireFox_Archer>4</FireFox_Archer>
+          <FireFox_Archer_Fire>5</FireFox_Archer_Fire>
+          <FireFox_Hunter>8</FireFox_Hunter>
+          <FireFox_Hunter_Fire>10</FireFox_Hunter_Fire>
+          <FireFox_HeavyArcher>8</FireFox_HeavyArcher>
+          <Tribal_HeavyArcher>2</Tribal_HeavyArcher>
+          <Tribal_ChiefRanged>3</Tribal_ChiefRanged>
+          <Tribal_Hunter>2</Tribal_Hunter>
+          <Tribal_Archer>1</Tribal_Archer>
+      </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Tribal_Child_Fire>20</Tribal_Child_Fire>
+          <Tribal_Child>8</Tribal_Child>
+          <FireFox_Archer>8</FireFox_Archer>
+          <FireFox_Archer_Fire>10</FireFox_Archer_Fire>
+          <FireFox_Hunter>8</FireFox_Hunter>
+          <FireFox_Hunter_Fire>10</FireFox_Hunter_Fire>
+          <FireFox_HeavyArcher>8</FireFox_HeavyArcher>
+          <Tribal_HeavyArcher>2</Tribal_HeavyArcher>
+          <Tribal_ChiefRanged>3</Tribal_ChiefRanged>
+          <Tribal_Hunter>2</Tribal_Hunter>
+          <Tribal_Archer>1</Tribal_Archer>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Tribal_Trader>1</Tribal_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <guards>
+          <FireFox_Warrior_Fire>1</FireFox_Warrior_Fire>
+          <FireFox_Archer>8</FireFox_Archer>
+          <FireFox_Archer_Fire>10</FireFox_Archer_Fire>
+          <FireFox_Hunter>8</FireFox_Hunter>
+          <FireFox_Hunter_Fire>10</FireFox_Hunter_Fire>
+          <FireFox_HeavyArcher>8</FireFox_HeavyArcher>
+          <Tribal_HeavyArcher>2</Tribal_HeavyArcher>
+          <Tribal_Hunter>2</Tribal_Hunter>
+          <Tribal_Archer>1</Tribal_Archer>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <FireFox_Warrior_Fire>1</FireFox_Warrior_Fire>
+          <FireFox_Archer>8</FireFox_Archer>
+          <FireFox_Archer_Fire>10</FireFox_Archer_Fire>
+          <FireFox_Hunter>8</FireFox_Hunter>
+          <FireFox_Hunter_Fire>10</FireFox_Hunter_Fire>
+          <FireFox_HeavyArcher>8</FireFox_HeavyArcher>
+          <Tribal_HeavyArcher>2</Tribal_HeavyArcher>
+          <Tribal_ChiefRanged>10</Tribal_ChiefRanged>
+          <Tribal_Hunter>2</Tribal_Hunter>
+          <Tribal_Archer>1</Tribal_Archer>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement_RangedOnly</kindDef>
+        <options>
+          <FireFox_Archer>8</FireFox_Archer>
+          <FireFox_Archer_Fire>10</FireFox_Archer_Fire>
+          <FireFox_Hunter>8</FireFox_Hunter>
+          <FireFox_Hunter_Fire>10</FireFox_Hunter_Fire>
+          <FireFox_HeavyArcher>8</FireFox_HeavyArcher>
+          <Tribal_HeavyArcher>1</Tribal_HeavyArcher>
+          <Tribal_ChiefRanged>10</Tribal_ChiefRanged>
+          <Tribal_Hunter>2</Tribal_Hunter>
+          <Tribal_Archer>1</Tribal_Archer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Tribal_Miner>1</Tribal_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Tribal_Hunter>1</Tribal_Hunter>
+          <FireFox_Hunter_Fire>1</FireFox_Hunter_Fire>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Tribal_Logger>1</Tribal_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Tribal_Farmer>1</Tribal_Farmer>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+</Defs>

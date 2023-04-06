@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/FactionDef[defName="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+				<BraixenXeno MayRequire="Ludeon.RimWorld.Biotech">0.5</BraixenXeno>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/FactionDef[defName="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+				<DelphoxXeno MayRequire="Ludeon.RimWorld.Biotech">0.5</DelphoxXeno>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/FactionDef[defName="OutlanderCivil"]/xenotypeSet/xenotypeChances</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderCivil"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+				<BraixenXeno MayRequire="Ludeon.RimWorld.Biotech">0.05</BraixenXeno>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderCivil"]</xpath>
+			<value>
+				<xenotypeSet>
+					<xenotypeChances>
+						<BraixenXeno MayRequire="Ludeon.RimWorld.Biotech">0.05</BraixenXeno>
+					</xenotypeChances>
+				</xenotypeSet>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/FactionDef[defName="OutlanderCivil"]/xenotypeSet/xenotypeChances</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderCivil"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+				<DelphoxXeno MayRequire="Ludeon.RimWorld.Biotech">0.05</DelphoxXeno>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderCivil"]</xpath>
+			<value>
+				<xenotypeSet>
+					<xenotypeChances>
+						<DelphoxXeno MayRequire="Ludeon.RimWorld.Biotech">0.05</DelphoxXeno>
+					</xenotypeChances>
+				</xenotypeSet>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/FactionDef[defName="Empire"]/xenotypeSet/xenotypeChances</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="Empire"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+				<BraixenXeno MayRequire="Ludeon.RimWorld.Biotech">0.05</BraixenXeno>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/FactionDef[defName="Empire"]/xenotypeSet/xenotypeChances</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="Empire"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+				<DelphoxXeno MayRequire="Ludeon.RimWorld.Biotech">0.05</DelphoxXeno>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/FactionDef[defName="Ancients"]/xenotypeSet/xenotypeChances</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="Ancients"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+				<IcephoxXeno MayRequire="Ludeon.RimWorld.Biotech">0.05</IcephoxXeno>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="Ancients"]</xpath>
+			<value>
+				<xenotypeSet>
+					<xenotypeChances>
+						<IcephoxXeno MayRequire="Ludeon.RimWorld.Biotech">0.05</IcephoxXeno>
+					</xenotypeChances>
+				</xenotypeSet>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/FactionDef[defName="Pirate"]/xenotypeSet/xenotypeChances</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="Pirate"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+				<InferxenXeno MayRequire="Ludeon.RimWorld.Biotech">0.05</InferxenXeno>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="Pirate"]</xpath>
+			<value>
+				<xenotypeSet>
+					<xenotypeChances>
+						<InferxenXeno MayRequire="Ludeon.RimWorld.Biotech">0.05</InferxenXeno>
+					</xenotypeChances>
+				</xenotypeSet>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/FactionDef[defName="OutlanderCivil"]/xenotypeSet/xenotypeChances</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderCivil"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+				<InferxenXeno MayRequire="Ludeon.RimWorld.Biotech">0.05</InferxenXeno>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderCivil"]</xpath>
+			<value>
+				<xenotypeSet>
+					<xenotypeChances>
+						<InferxenXeno MayRequire="Ludeon.RimWorld.Biotech">0.05</InferxenXeno>
+					</xenotypeChances>
+				</xenotypeSet>
+			</value>
+		</nomatch>
+	</Operation>
+</Patch>

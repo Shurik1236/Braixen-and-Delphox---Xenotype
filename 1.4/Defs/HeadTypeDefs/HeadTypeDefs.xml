@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HeadTypeDef>
+    <defName>BraixenHeadStandard</defName>
+    <graphicPath>Things/Pawn/Humanlike/Braixen/Head/HeadStandard</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+    <modExtensions>
+		<li Class="GeneTools.GeneToolsHeadTypeDef">
+			<useShader>true</useShader>
+		</li>
+	</modExtensions>
+  </HeadTypeDef>
+
+  <HeadTypeDef>
+    <defName>DelphoxHeadStandard</defName>
+    <graphicPath>Things/Pawn/Humanlike/Delphox/Head/HeadStandard</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+    <modExtensions>
+		<li Class="GeneTools.GeneToolsHeadTypeDef">
+			<useShader>true</useShader>
+		</li>
+	</modExtensions>
+  </HeadTypeDef>
+  
+  <HeadTypeDef>
+    <defName>WitchFoxHead1</defName>
+    <graphicPath>Things/Pawn/Humanlike/WitchFox/Head/WitchFox1</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+    <modExtensions>
+		<li Class="GeneTools.GeneToolsHeadTypeDef">
+			<useShader>true</useShader>
+		</li>
+	</modExtensions>
+  </HeadTypeDef>
+  
+  <HeadTypeDef>
+    <defName>WitchFoxHead2</defName>
+    <graphicPath>Things/Pawn/Humanlike/WitchFox/Head/WitchFox2</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+    <modExtensions>
+		<li Class="GeneTools.GeneToolsHeadTypeDef">
+			<useShader>true</useShader>
+		</li>
+	</modExtensions>
+  </HeadTypeDef>
+  
+  <HeadTypeDef>
+    <defName>IcephoxHead1</defName>
+    <graphicPath>Things/Pawn/Humanlike/Icephox/Head/IcephoxHead1</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+    <modExtensions>
+		<li Class="GeneTools.GeneToolsHeadTypeDef">
+			<useShader>true</useShader>
+		</li>
+	</modExtensions>
+  </HeadTypeDef>
+
+  <HeadTypeDef>
+    <defName>IcephoxHead2</defName>
+    <graphicPath>Things/Pawn/Humanlike/Icephox/Head/IcephoxHead2</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+    <modExtensions>
+		<li Class="GeneTools.GeneToolsHeadTypeDef">
+			<useShader>true</useShader>
+		</li>
+	</modExtensions>
+  </HeadTypeDef>
+  
+  <HeadTypeDef>
+    <defName>IcephoxHead3</defName>
+    <graphicPath>Things/Pawn/Humanlike/Icephox/Head/IcephoxHead3</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+    <modExtensions>
+		<li Class="GeneTools.GeneToolsHeadTypeDef">
+			<useShader>true</useShader>
+		</li>
+	</modExtensions>
+  </HeadTypeDef>
+  
+  <HeadTypeDef>
+    <defName>IcephoxHead</defName>
+    <graphicPath>Things/Pawn/Humanlike/Icephox/Head/IcephoxHead</graphicPath>
+    <randomChosen>false</randomChosen>
+    <gender>None</gender>
+    <modExtensions>
+		<li Class="GeneTools.GeneToolsHeadTypeDef">
+			<useShader>true</useShader>
+		</li>
+	</modExtensions>
+  </HeadTypeDef>
+</Defs>

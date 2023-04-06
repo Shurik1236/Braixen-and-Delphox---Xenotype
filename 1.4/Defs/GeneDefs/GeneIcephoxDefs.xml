@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef>
+        <defName>IcephoxBodyGene</defName>
+        <label>Icephox body</label>
+        <labelShortAdj>icephox</labelShortAdj>
+        <description>...</description>
+        <displayCategory>BraixenDelphoxXenos</displayCategory>
+        <displayOrderInCategory>13</displayOrderInCategory>
+        <iconPath>UI/Icons/Genes/IcephoxBodyGene</iconPath>
+        <iconColor>(0.75, 0.75, 0.75)</iconColor>
+        <bodyType>Standard</bodyType>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+		<missingGeneRomanceChanceFactor>0.2</missingGeneRomanceChanceFactor>
+        <exclusionTags>
+            <li>HairStyle</li>
+            <li>Fur</li>
+            <li>BeardStyle</li>
+        </exclusionTags>
+		
+        <graphicData>
+			<colorType>Skin</colorType>
+			<useSkinShader>false</useSkinShader>
+			<tattoosVisible>false</tattoosVisible>
+            <drawOffsetNorth>(0,0,0)</drawOffsetNorth>
+      		<drawOffsetSouth>(0,0,0)</drawOffsetSouth>
+      		<drawOffsetEast>(-0.5,0,0)</drawOffsetEast>
+		</graphicData>
+		<modExtensions>
+		    <li Class="GeneTools.GeneToolsGeneDef">
+                <forcedBodyTypesBaby>
+				    <li>IcephoxB</li>
+			    </forcedBodyTypesBaby>
+                <forcedBodyTypesChild>
+				    <li>IcephoxC</li>
+			    </forcedBodyTypesChild>
+			    <forcedBodyTypesFemale>
+				    <li>IcephoxF</li>
+			    </forcedBodyTypesFemale>
+			    <forcedBodyTypes>
+				    <li>IcephoxM</li>
+			    </forcedBodyTypes>
+		    </li>
+		</modExtensions>
+    </GeneDef>
+    
+	<GeneDef ParentName="BraixenEarBase">
+		<defName>IcephoxBraixenEarGene</defName>
+		<label>Icephox (Braixen variant) ears</label>
+		<description>...</description>
+		<displayCategory>BraixenDelphoxXenos</displayCategory>
+		<displayOrderInCategory>16</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/IcephoxBraixenEarGene</iconPath>
+		<iconColor>(140,140,140)</iconColor>
+		<graphicData>
+			<colorType>Skin</colorType>
+			<useSkinShader>false</useSkinShader>
+			<tattoosVisible>false</tattoosVisible>
+            <graphicPaths>
+				<li>Things/Pawn/Humanlike/Icephox/Ear/IcephoxEar1</li>
+				<li>Things/Pawn/Humanlike/Icephox/Ear/IcephoxEar2</li>
+				<li>Things/Pawn/Humanlike/Icephox/Ear/IcephoxEar3</li>
+			</graphicPaths>
+            <drawOffsetSouth>(0.0, -0.1, 0.0)</drawOffsetSouth>
+		</graphicData>
+	</GeneDef>
+
+	<GeneDef ParentName="BraixenEarBase">
+		<defName>IcephoxDelphoxEarGene</defName>
+		<label>Icephox (Delphox variant) ears</label>
+		<description>...</description>
+		<displayCategory>BraixenDelphoxXenos</displayCategory>
+		<displayOrderInCategory>17</displayOrderInCategory>
+		<iconPath>UI/Icons/Genes/IcephoxDelphoxEarGene</iconPath>
+		<iconColor>(140,140,140)</iconColor>
+		<graphicData>
+			<colorType>Skin</colorType>
+			<useSkinShader>false</useSkinShader>
+			<tattoosVisible>false</tattoosVisible>
+            <graphicPaths>
+				<li>Things/Pawn/Humanlike/Icephox/Ear/IcephoxEar4</li>
+			</graphicPaths>
+            <drawOffsetSouth>(0.0, -0.1, 0.0)</drawOffsetSouth>
+		</graphicData>
+	</GeneDef>
+
+    <GeneDef ParentName="GeneTailBase">
+        <defName>IcephoxTailGene</defName>
+        <label>Icephox tail</label>
+        <description>...</description>
+        <iconPath>UI/Icons/Genes/IcephoxTailGene</iconPath>
+        <iconColor>(0.75, 0.75, 0.75)</iconColor>
+        <displayOrderInCategory>18</displayOrderInCategory>
+        <displayCategory>BraixenDelphoxXenos</displayCategory>
+        <statOffsets>
+            <ComfyTemperatureMax>5</ComfyTemperatureMax>
+        </statOffsets>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <graphicData>
+            <drawScale>1.5</drawScale>
+            <colorType>Skin</colorType>
+			<useSkinShader>false</useSkinShader>
+			<tattoosVisible>false</tattoosVisible>
+            <graphicPath>Things/Pawn/Humanlike/Icephox/Tail/Defaulttail</graphicPath>
+            <drawOffsetNorth>(0.0, 0.2, 0.0)</drawOffsetNorth>
+            <drawOffsetSouth>(0.0, -0.2, 0.12)</drawOffsetSouth>
+            <drawOffsetEast>(0.1, -0.1, 0.0)</drawOffsetEast>
+        </graphicData>
+    </GeneDef>
+</Defs>

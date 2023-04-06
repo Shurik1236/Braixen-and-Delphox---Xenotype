@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+	  <mods>
+		<li>Biotech Expansion - Mammalia</li>
+	  </mods>
+		<match Class="PatchOperationSequence">
+		  <operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/XenotypeDef[defName="InferxenXeno"]/genes</xpath>
+				<value>
+					<li>BTEMa_Farsighted</li>
+					<li>MeleeDamage_Weak</li>
+				</value>
+			</li>
+		  </operations>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+	  <mods>
+		<li>Alpha Memes</li>
+	  </mods>
+		<match Class="PatchOperationSequence">
+		  <operations>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/FactionDef[defName="FireFoxyTribe"]/requiredMemes</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[defName="FireFoxyTribe"]/requiredMemes</xpath>
+					<value>
+						<li MayRequire="Ludeon.RimWorld.Ideology">VME_FireWorship</li>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/FactionDef[defName="FireFoxyTribe"]</xpath>
+					<value>
+						<requiredMemes Inherit="False">
+						  <li MayRequire="Ludeon.RimWorld.Ideology">VME_FireWorship</li>
+						</requiredMemes>
+					</value>
+				</nomatch>
+			</li>
+		  </operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+	  <mods>
+		<li>RJW Genes</li>
+	  </mods>
+		<match Class="PatchOperationSequence">
+		  <operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/XenotypeDef[defName="BraixenXeno"]/genes</xpath>
+					<value>
+						<li>rjw_genes_canine_genitalia</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/XenotypeDef[defName="DelphoxXeno"]/genes</xpath>
+					<value>
+						<li>rjw_genes_canine_genitalia</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/XenotypeDef[defName="InferxenXeno"]/genes</xpath>
+					<value>
+						<li>rjw_genes_canine_genitalia</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/XenotypeDef[defName="IcephoxXeno"]/genes</xpath>
+					<value>
+						<li>rjw_genes_canine_genitalia</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>

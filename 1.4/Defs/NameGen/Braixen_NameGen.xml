@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<RulePackDef>
+        <defName>BraixenNameM</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>name->[FirstM] '[SecondM]' [Ident]</li>
+            </rulesStrings>
+            <rulesRaw>
+                <li Class="Rule_File">
+                    <keyword>FirstM</keyword>
+                    <path>BraixenNames/BraixenMaleFirstName</path>
+                </li>
+                <li Class="Rule_File">
+                    <keyword>SecondM</keyword>
+                    <path>BraixenNames/BraixenMaleMidName</path>
+                </li>
+                <li Class="Rule_File">
+                    <keyword>Ident</keyword>
+                    <path>BraixenNames/BraixenSurName</path>
+                </li>
+            </rulesRaw>
+        </rulePack>
+    </RulePackDef>
+    
+        <RulePackDef>
+        <defName>BraixenNameF</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>name->[FirstF] '[SecondF]' [Ident]</li>
+            </rulesStrings>
+            <rulesRaw>
+                <li Class="Rule_File">
+                    <keyword>FirstF</keyword>
+                    <path>BraixenNames/BraixenFemaleFirstName</path>
+                </li>
+                <li Class="Rule_File">
+                    <keyword>SecondF</keyword>
+                    <path>BraixenNames/BraixenFemaleMidName</path>
+                </li>
+                <li Class="Rule_File">
+                    <keyword>Ident</keyword>
+                    <path>BraixenNames/BraixenSurName</path>
+                </li>
+            </rulesRaw>
+        </rulePack>
+    </RulePackDef>
+</Defs>

@@ -1,0 +1,73 @@
+<LanguageData>
+  <BraixenBodyGene.label>Тело брейксен</BraixenBodyGene.label>
+  <BraixenBodyGene.description>...</BraixenBodyGene.description>
+  <BraixenBodyGene.labelShortAdj>...</BraixenBodyGene.labelShortAdj>
+
+  <BraixenHeadGene.label>Голова брейксен</BraixenHeadGene.label>
+  <BraixenHeadGene.description>...</BraixenHeadGene.description>
+  <BraixenHeadGene.labelShortAdj>...</BraixenHeadGene.labelShortAdj>
+  
+  <BraixenEarGene.label>Уши брейксен</BraixenEarGene.label>
+  <BraixenEarGene.description>...</BraixenEarGene.description>
+  <BraixenEarGene.labelShortAdj>...</BraixenEarGene.labelShortAdj>
+
+  <BraPhoxEyeGene.label>Глаза брейксен</BraPhoxEyeGene.label>
+  <BraPhoxEyeGene.description>...</BraPhoxEyeGene.description>
+  <BraPhoxEyeGene.labelShortAdj>...</BraPhoxEyeGene.labelShortAdj>
+  
+  <BraPhoxEyeHGene.label>Глаза брейксен (Для обычной головы)</BraPhoxEyeHGene.label>
+  <BraPhoxEyeHGene.description>...</BraPhoxEyeHGene.description>
+  <BraPhoxEyeHGene.labelShortAdj>...</BraPhoxEyeHGene.labelShortAdj>
+  
+  <BraixenTailGene.label>Хвост брейксен</BraixenTailGene.label>
+  <BraixenTailGene.description>...</BraixenTailGene.description>
+  <BraixenTailGene.labelShortAdj>...</BraixenTailGene.labelShortAdj>
+  
+  <DelphoxBodyGene.label>Тело делфокс</DelphoxBodyGene.label>
+  <DelphoxBodyGene.description>...</DelphoxBodyGene.description>
+  <DelphoxBodyGene.labelShortAdj>...</DelphoxBodyGene.labelShortAdj>
+
+  <DelphoxHeadGene.label>Голова делфокс</DelphoxHeadGene.label>
+  <DelphoxHeadGene.description>...</DelphoxHeadGene.description>
+  <DelphoxHeadGene.labelShortAdj>...</DelphoxHeadGene.labelShortAdj>
+  
+  <BraixenDelphoxHeadGene.label>Смешанная голова</BraixenDelphoxHeadGene.label>
+  <BraixenDelphoxHeadGene.description>...</BraixenDelphoxHeadGene.description>
+  <BraixenDelphoxHeadGene.labelShortAdj>...</BraixenDelphoxHeadGene.labelShortAdj>
+
+  <IcephoxBodyGene.label>Тело айсфокс</IcephoxBodyGene.label>
+  <IcephoxBodyGene.description>...</IcephoxBodyGene.description>
+  <IcephoxBodyGene.labelShortAdj>...</IcephoxBodyGene.labelShortAdj>
+  
+  <IcephoxBraixenEarGene.label>Уши айсфокс (Вариант брейксен)</IcephoxBraixenEarGene.label>
+  <IcephoxBraixenEarGene.description>...</IcephoxBraixenEarGene.description>
+  <IcephoxBraixenEarGene.labelShortAdj>...</IcephoxBraixenEarGene.labelShortAdj>
+  
+  <IcephoxDelphoxEarGene.label>Уши айсфокс (Вариант делфокс)</IcephoxDelphoxEarGene.label>
+  <IcephoxDelphoxEarGene.description>...</IcephoxDelphoxEarGene.description>
+  <IcephoxDelphoxEarGene.labelShortAdj>...</IcephoxDelphoxEarGene.labelShortAdj>
+  
+  <IcephoxTailGene.label>Хвост айсфокс</IcephoxTailGene.label>
+  <IcephoxTailGene.description>...</IcephoxTailGene.description>
+  <IcephoxTailGene.labelShortAdj>...</IcephoxTailGene.labelShortAdj>
+  
+  <DelphoxEarGene.label>Уши делфокс</DelphoxEarGene.label>
+  <DelphoxEarGene.description>...</DelphoxEarGene.description>
+  <DelphoxEarGene.labelShortAdj>...</DelphoxEarGene.labelShortAdj>
+  
+  <DelphoxTailGene.label>Хвост делфокс</DelphoxTailGene.label>
+  <DelphoxTailGene.description>...</DelphoxTailGene.description>
+  <DelphoxTailGene.labelShortAdj>...</DelphoxTailGene.labelShortAdj>
+  
+  <BlueBraixenGene.label>Blue Braixen skin</BlueBraixenGene.label>
+  <BlueBraixenGene.description>...</BlueBraixenGene.description>
+  <BlueBraixenGene.labelShortAdj>...</BlueBraixenGene.labelShortAdj>
+
+  <PurpleBraixenGene.label>Purple Braixen skin</PurpleBraixenGene.label>
+  <PurpleBraixenGene.description>...</PurpleBraixenGene.description>
+  <PurpleBraixenGene.labelShortAdj>...</PurpleBraixenGene.labelShortAdj>
+  
+  <PinkBraixenGene.label>Pink Braixen skin</PinkBraixenGene.label>
+  <PinkBraixenGene.description>...</PinkBraixenGene.description>
+  <PinkBraixenGene.labelShortAdj>...</PinkBraixenGene.labelShortAdj>
+</LanguageData>
